@@ -10,5 +10,7 @@
 -Clone github repository in your local system `git clone https://github.com/nonamenowife/whatstry.git`
 
 -Move in Whatstry repository  `cd Whatstry`
+
 -Install all the libraries mentioned in [requirements.txt] `pip install -r requirements.txt`
+
 - Run Python file  `python3 Whatstry.py`
