@@ -6,6 +6,8 @@
 # whatstry
 - Send messages to any person spam 
 - Just change the chromedriver location in Whatstry.py and enjoy it
+- put any words but not number like jhasgtwqiqjlksdjalksdjh
+- for phone number use like +20 or+994 or +1 or any thing 
 # How to run the project?
 -Clone github repository in your local system `git clone https://github.com/nonamenowife/whatstry.git`
 
