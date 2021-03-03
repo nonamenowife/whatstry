@@ -49,11 +49,11 @@ canvas1.create_image(width / 2, height / 3, image=gif1)
 
 def blueSelection(event=None):
     l1 = tk.Label(master,
-                  text="Enter the Message ", bg="blue")
+                  text="Enter the Message ", bg="red")
     l2 = tk.Label(master,
-                  text="How many message do you want to send ?", bg="blue")
+                  text="How many message do you want to send ?", bg="red")
     l3 = tk.Label(master,
-                  text="Enter the Phone Number ", bg="blue")
+                  text="Enter the Phone Number ", bg="red")
 
     canvas1.create_window(100, 250, window=l1)
     canvas1.create_window(150, 290, window=l2)
@@ -142,13 +142,13 @@ def blueSelection(event=None):
                     sleep(10)
                     is_connected()
                     
-    c1 = tk.Button(text='Send', command=Driver, bg='blue', fg='white',
+    c1 = tk.Button(text='Send', command=Driver, bg='red', fg='white',
     font=('helvetica', 9, 'bold'))
     canvas1.create_window(250, 380, window=c1)
     
     
     
-ch = tk.Label(master, text="Send Message X Times", fg="white", bg="lightblue")
+ch = tk.Label(master, text="Send Message", fg="orange", bg="lightblue")
 ch.bind("<Button-1>", blueSelection)
 ch.config(font=('helvetica', 14))
 canvas1.create_window(120, 270, window=ch)
